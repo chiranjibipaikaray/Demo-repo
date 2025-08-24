@@ -1,0 +1,6 @@
+name: "mera pehla workflow"
+on:
+  push: 
+    branches:
+      - "main"
+      
