@@ -3,4 +3,12 @@ on:
   push: 
     branches:
       - "main"
+jobs:
+  terraformInit:
+    name: init
+    runs-on: actionLabel
+    steps:
+     - name: initstep
+       run : echo dhondu
+      
       
