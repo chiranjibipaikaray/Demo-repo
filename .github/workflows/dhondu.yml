@@ -5,7 +5,7 @@ on:
       - "main"
 jobs:
   terraformInit:
-    name: init
+    name: dhondu
     runs-on: actionLabel
     steps:
      - name: initstep
