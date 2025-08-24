@@ -8,7 +8,9 @@ jobs:
     name: dhondu
     runs-on: actionLabel
     steps:
-     - name: initstep
-       run : echo dhondu
+     - name: Run echo in cmd
+       run: echo dhondu
+       shell: cmd
+
       
       
