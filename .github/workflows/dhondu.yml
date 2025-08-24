@@ -2,7 +2,7 @@ name: "mera pehla workflow"
 on:
   push: 
     branches:
-      - "main"
+      - main
 jobs:
   terraformInit:
     name: dhondu
